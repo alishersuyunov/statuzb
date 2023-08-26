@@ -1,6 +1,8 @@
 # statuzb
 The R package for interaction with the public data source of the Statistics Agency of Uzbekistan - siat.stat.uz
 
+[![R build status](https://github.com/r-lib/actions/workflows/R-CMD-check/badge.svg)](https://github.com/r-lib/actions/actions?workflow=R-CMD-check)
+
 ## RELEASE NOTES:
 * The beta version v0.1.0 offers the following functions interacting with the portal:
   - `availableData()` obtains the list of available datasets from the siat.stat.uz
