@@ -2,7 +2,6 @@
 #'
 #'  Downloads available datasets and related information from siat.stat.uz API
 #'
-#' @param id a numeric or character that represents a dataset identifier
 #' @author Alisher Suyunov
 #'
 #' @import dplyr tidyr httr jsonlite rlist tibble

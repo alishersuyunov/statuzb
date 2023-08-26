@@ -24,6 +24,7 @@ getTable <- function(id) {
   dt %>% lapply(flattenData) %>% bind_rows() %>% tidyr::unnest("data") %>% return()
 }
 
+#' @describeIn flattenData flattens the input dataset.
 #' @keywords internal
 flattenData <- function(x) {
   x$data <- x$data %>% rlist::list.flatten() %>% tibble::as_tibble_row()

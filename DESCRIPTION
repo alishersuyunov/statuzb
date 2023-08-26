@@ -14,8 +14,6 @@ Imports: dplyr,
          httr,
          jsonlite,
          rlist,
-         glue,
-         knitr
-VignetteBuilder: knitr
+         glue
 LazyData: false
 RoxygenNote: 7.2.3

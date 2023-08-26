@@ -6,9 +6,6 @@
 \usage{
 availableData()
 }
-\arguments{
-\item{id}{a numeric or character that represents a dataset identifier}
-}
 \value{
 Returns a data frame
 }
