@@ -1,0 +1,21 @@
+Package: Statuzb
+Type: Package
+Title: Downloading available datasets from the official portal of the Statistics Agency of Uzbekistan 
+Version: 0.1.0
+Authors@R: person("Alisher", "Suyunov", email = "alishersuyunov.as@gmail.com",
+           role = c("aut", "cre"))
+Description: Import data from an official open data source \url{siat.stat.uz}. 
+             The package provides several functions to easily find and download datasets and related information right from the R interface without bothering with other software. 
+License: GPL-3
+Encoding: UTF-8
+Imports: dplyr,
+         tidyr,
+         tibble,
+         httr,
+         jsonlite,
+         rlist,
+         glue,
+         knitr
+VignetteBuilder: knitr
+LazyData: false
+RoxygenNote: 7.2.3
